@@ -2,11 +2,11 @@
 
 📖 Overview
 
-This project implements and compares different deep learning models, including Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), and Transfer Learning techniques. The goal is to analyze their performance on a dataset and determine the most effective approach for a given classification task.
+*This project implements and compares different deep learning models, including Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), and Transfer Learning techniques. The goal is to analyze their performance on a dataset and determine the most effective approach for a given classification task.
 
 📂 Dataset
 
-The dataset consists of labeled images or structured data for classification. The key aspects include:
+*The dataset consists of labeled images or structured data for classification. The key aspects include:
 
 Multiple classes for classification
 
@@ -20,58 +20,58 @@ Preprocessing steps to enhance model performance
 
 🔹 Data Preprocessing
 
-Normalized pixel values (rescaled to [0,1])
+*Normalized pixel values (rescaled to [0,1])
 
-Applied data augmentation techniques
+*Applied data augmentation techniques
 
-Converted categorical labels to one-hot encoding (if applicable)
+*Converted categorical labels to one-hot encoding (if applicable)
 
 🔹 Model Architectures
 
-Artificial Neural Network (ANN)
+*Artificial Neural Network (ANN)
 
-Fully connected layers with activation functions
+*Fully connected layers with activation functions
 
-Optimized using Adam optimizer
+*Optimized using Adam optimizer
 
-Convolutional Neural Network (CNN)
+*Convolutional Neural Network (CNN)
 
-Feature extraction using convolutional layers
+*Feature extraction using convolutional layers
 
-Pooling layers for dimensionality reduction
+*Pooling layers for dimensionality reduction
 
-Transfer Learning
+*Transfer Learning
 
-Implemented pre-trained models like:
+*Implemented pre-trained models like:
 
-VGG16
+**VGG16
 
-ResNet
+**ResNet
 
-MobileNet
+**MobileNet
 
-Fine-tuned layers to improve accuracy
+*Fine-tuned layers to improve accuracy
 
 🔹 Training
 
-Loss Function: categorical_crossentropy / binary_crossentropy
+*Loss Function: categorical_crossentropy / binary_crossentropy
 
-Optimizer: Adam
+*Optimizer: Adam
 
-Evaluation Metrics: Accuracy, Precision, Recall, F1-score
+*Evaluation Metrics: Accuracy, Precision, Recall, F1-score
 
 🔹 Visualization
 
-Training vs. Validation Accuracy and Loss
+*Training vs. Validation Accuracy and Loss
 
-Confusion Matrix
+*Confusion Matrix
 
-Model performance comparison
+*Model performance comparison
 
 📊 Results
 
-Achieved high accuracy using [best performing model]
+*Achieved high accuracy using [best performing model]
 
-Compared ANN, CNN, and Transfer Learning approaches
+*Compared ANN, CNN, and Transfer Learning approaches
 
-Evaluated the trade-offs between accuracy and computational efficiency
+*Evaluated the trade-offs between accuracy and computational efficiency
