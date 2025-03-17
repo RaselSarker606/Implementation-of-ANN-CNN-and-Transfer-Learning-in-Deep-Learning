@@ -18,7 +18,7 @@ Preprocessing steps to enhance model performance
 
 🛠️ Methodology
 
-##🔹 Data Preprocessing
+🔹 Data Preprocessing
 
 *Normalized pixel values (rescaled to [0,1])
 
